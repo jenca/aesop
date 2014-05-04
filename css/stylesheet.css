@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "RobotoItalic";
+    src: url("fonts/Roboto-ThinItalic.ttf");
+}
+@font-face {
+    font-family: "RobotoBI";
+    src: url("fonts/Roboto-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Whip";
+    src: url("fonts/Whipsmart.ttf");
+}
+@font-face {
+    font-family: "WhipBold";
+    src: url("fonts/Whipsmart Bold.ttf");
+}
+
+h1 {
+    padding: 0px;
+    padding-bottom: .1em;
+    margin: 0px;
+    margin-bottom: .3em;
+    border-bottom: 1px dotted #BAB9BD;
+    font-family: Whip;
+}
+
+#storybook h1 {
+    text-align: center;
+    font-family: Whip;
+}
+
+
+#table {
+    float: left;
+}
+
+#toc {
+    margin-top: 0px;
+    padding: 0;
+}
+
+#toc li {
+    list-style-type: none;
+    padding: .5em;
+    border-bottom: 1px dotted #BAB9BD;
+    font-size: 1.1em;
+    color: #5C5C5C;
+    font-family: Roboto;
+}
+
+#toc li:hover {
+    border-bottom: 1px dotted #A8A8A8;
+    color: #141414;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 1px #5B5B5C;
+}
+
+.subtext {
+    display: inline-block;
+    padding: .3em;
+    margin:; .2em;
+    margin-right: .5em;
+    font-style: oblique;
+    color: #BAB9BD;
+    font-size: .8em;
+}
+
+
+#storybook div {
+    display: none;
+    float: left;
+    width: 50%;
+    margin-left: 5em;
+}
+
+#storybook .show {
+    display: block;
+    font-family: Roboto;
+}
+
+.quote {
+    font-family: RobotoItalic;
+}
+
+#moral {
+    font-family: Arial;
+    font-style: italic;
+}
