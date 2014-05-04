@@ -1,37 +1,25 @@
 @font-face {
-    font-family: "Roboto";
+    font-family: Roboto;
     src: url("fonts/Roboto-Thin.ttf");
 }
 @font-face {
-    font-family: "RobotoItalic";
-    src: url("fonts/Roboto-ThinItalic.ttf");
-}
-@font-face {
-    font-family: "RobotoBI";
-    src: url("fonts/Roboto-BlackItalic.ttf");
-}
-
-@font-face {
-    font-family: "Whip";
+    font-family: Whip;
     src: url("fonts/Whipsmart.ttf");
-}
-@font-face {
-    font-family: "WhipBold";
-    src: url("fonts/Whipsmart Bold.ttf");
 }
 
 h1 {
+    font-family: Whip;
     padding: 0px;
     padding-bottom: .1em;
     margin: 0px;
     margin-bottom: .3em;
     border-bottom: 1px dotted #BAB9BD;
-    font-family: Whip;
 }
 
 #storybook h1 {
-    text-align: center;
     font-family: Whip;
+    text-align: center;
+    border-bottom: none;
 }
 
 
@@ -40,25 +28,32 @@ h1 {
 }
 
 #toc {
+    padding: 0px;
     margin-top: 0px;
-    padding: 0;
 }
 
 #toc li {
+    font-family: Roboto;
+    font-size: 1.1em;
+    color: #5C5C5C;
     list-style-type: none;
     padding: .5em;
     border-bottom: 1px dotted #BAB9BD;
-    font-size: 1.1em;
-    color: #5C5C5C;
-    font-family: Roboto;
 }
 
 #toc li:hover {
-    border-bottom: 1px dotted #A8A8A8;
     color: #141414;
+    text-shadow: 0px 1px 1px #000000;
     cursor: pointer;
-    font-size: 1.2em;
-    text-shadow: 0px 0px 1px #5B5B5C;
+}
+
+.active {
+    color: #141414;
+    text-shadow: 0px 1px 1px #000000;
+}
+
+.seen {
+    font-style:oblique !important;
 }
 
 .subtext {
@@ -71,12 +66,13 @@ h1 {
     font-size: .8em;
 }
 
-
 #storybook div {
     display: none;
     float: left;
     width: 50%;
     margin-left: 5em;
+    word-spacing: .2em;
+    font-size: 1.2em;
 }
 
 #storybook .show {
@@ -85,10 +81,12 @@ h1 {
 }
 
 .quote {
-    font-family: RobotoItalic;
+    font-style:oblique;
 }
 
 #moral {
     font-family: Arial;
     font-style: italic;
+    letter-spacing: 0.1em;
+    font-size: .9em;
 }
